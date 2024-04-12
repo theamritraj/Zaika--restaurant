@@ -509,11 +509,13 @@
               <span class="span body-1">&#8377; 200.00</span>
             </div>
 
-            <a href="#card-menu" class="btn btn-primary">
-              <span class="text text-1">View All Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View All Menu</span>
-            </a>
+            <button onclick="toggleContent()">
+              <a href="#card-menu" class="btn btn-primary">
+                <span class="text text-1" >View All Menu</span>
+      
+                  <span class="text text-2" aria-hidden="true">View All Menu</span>
+                </a>
+            </button>
 
           </div>
         </div>
@@ -712,28 +714,24 @@
           <p class="menu-text text-center">
             During winter daily from <span class="span">11:00 Am</span> to <span class="span">9:00 pm</span>
           </p>
-
-          <a href="#card-menu" class="btn btn-primary">
-            <span class="text text-1">View All Menu</span>
-
-            <span class="text text-2" aria-hidden="true">View All Menu</span>
-          </a>
+          <!-- <button onclick="toggleContent()">
+            <a href="#card-menu" class="btn btn-primary">
+              <span class="text text-1" >View All Menu</span>
+    
+                <span class="text text-2" aria-hidden="true">View All Menu</span>
+              </a>
+          </button> -->
+          
 
           <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
             class="shape shape-2 move-anim">
           <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
             class="shape shape-3 move-anim">
-            <!-- <div class="">
-              <img src="./assets/images/menu-1.jpg" alt="Menu list">
-              <img src="./assets/images/menu-2.jpg" alt="Menu list">
-              <img src="./assets/images/menu-3.jpg" alt="Menu list">
-              <img src="./assets/images/menu-4.jpg" alt="Menu list">
-              <img src="./assets/images/menu-5.jpg" alt="Menu list">
-              <img src="./assets/images/menu-6.jpg" alt="Menu list">
-              <img src="./assets/images/menu-7.jpg" alt="Menu list">
-            </div> -->
 
-            <section class="section event bg-black-10" aria-label="event" id="card-menu">
+            <!-- Menu_list -->
+
+            <div id="content" style="display: none;">
+              <section class="section event bg-black-10" aria-label="event" id="card-menu">
               <div class="container">    
                 <ul class="grid-list">
       
@@ -810,6 +808,7 @@
       
               </div>
             </section>
+            </div>
 
         </div>
       </section>

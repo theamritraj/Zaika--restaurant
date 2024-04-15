@@ -332,6 +332,11 @@ body.nav-active { overflow: hidden; }
   margin-block-start: 5px;
 }
 
+/* login and cart button */
+
+/*  */
+
+
 .btn {
   position: relative;
   color: var(--gold-crayola);

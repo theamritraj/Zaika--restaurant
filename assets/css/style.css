@@ -906,13 +906,13 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #Log in And Cart
 \*-----------------------------------*/
-.bi-person{
-  font-size: 22px;
-}
-.bi-cart3{
+.fa-circle-user{
   font-size: 22px;
   margin-left: 15px;
-  position: relative;
+}
+.fa-cart-shopping{
+  font-size: 22px;
+  
 }
 
 

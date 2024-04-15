@@ -904,6 +904,19 @@ body.nav-active { overflow: hidden; }
 
 
 /*-----------------------------------*\
+  #Log in And Cart
+\*-----------------------------------*/
+.bi-person{
+  font-size: 22px;
+}
+.bi-cart3{
+  font-size: 22px;
+  margin-left: 15px;
+  position: relative;
+}
+
+
+/*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
 
@@ -1125,6 +1138,26 @@ body.nav-active { overflow: hidden; }
 }
 
 
+
+/* menu order */
+.bi-plus:hover{
+  font-size: 15px;
+  background-color: var(--davys-grey);
+  transition: width 0.8s, height 0.8s;  
+  border-radius: 3px;
+  color: var(--gold-crayola);
+  
+}
+.bi-dash:hover{
+  font-size: 15px;
+ background-color: var(--davys-grey);
+  transition: width 0.8s, height 0.8s;  
+  border-radius: 3px;
+  color: var(--gold-crayola);
+}
+.bi-dash{
+  margin-left: 20px;
+}
 
 
 

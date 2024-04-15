@@ -25,6 +25,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- 
     - custom css link
@@ -137,7 +138,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#menu" class="navbar-link hover-underline">
+            <a href="menu.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Menus</span>
@@ -145,23 +146,23 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#about" class="navbar-link hover-underline">
+            <a href="about.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">About Us</span>
             </a>
           </li>
 
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
+          <!-- <li class="navbar-item">
+            <a href="chefs.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Our Chefs</span>
             </a>
-          </li>
+          </li> -->
 
           <li class="navbar-item">
-            <a href="#contact-us" class="navbar-link hover-underline">
+            <a href="contact.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Contact</span>
@@ -193,16 +194,16 @@
 
       </nav>
 
-      <!-- Log in And Carrt -->
+      <!-- Login and And Cart -->
 
 
       <a href=""><span class="material-symbols-outlined"></span></a>
+      <a href="login.html"><i class="bi bi-person"></i></a>
+      <a href="cart.html"><i class="bi bi-cart3"></i></a>
       
 
       <!-- <a href="#online-booking" class="btn btn-secondary">
         <span class="text text-1">Log in</span>
-        
-
         <span class="text text-2" aria-hidden="true">Log in</span>
       </a> -->
       
@@ -276,7 +277,7 @@
               Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#menu" class="btn btn-primary slider-reveal">
+            <a href="menu.html" class="btn btn-primary slider-reveal">
               <span class="text text-1">View Our Menu</span>
 
               <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -301,7 +302,7 @@
               Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#menu" class="btn btn-primary slider-reveal">
+            <a href="menu.html" class="btn btn-primary slider-reveal">
               <span class="text text-1">View Our Menu</span>
 
               <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -319,7 +320,7 @@
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
-        <a href="#online-booking" class="hero-btn has-after">
+        <a href="contact.html" class="hero-btn has-after">
           <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
 
           <span class="label-2 text-center span">Book A Table</span>
@@ -571,11 +572,15 @@
                     <span class="badge label-1">Seasonal</span>
 
                     <span class="span title-2">&#8377;60.00</span>
+                    <span><i class="bi bi-plus"></i></span>
+                    <span><i class="bi bi-dash"></i></span>
                   </div>
 
                   <p class="card-text label-1">
                     Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
                   </p>
+
+                  
 
                 </div>
 
@@ -598,6 +603,8 @@
                     </h3>
 
                     <span class="span title-2">&#8377;140.00</span>
+                    <span><i class="bi bi-plus"></i></span>
+                    <span><i class="bi bi-dash"></i></span>
                   </div>
 
                   <p class="card-text label-1">
@@ -625,6 +632,8 @@
                     </h3>
 
                     <span class="span title-2">&#8377;200.00</span>
+                    <span><i class="bi bi-plus"></i></span>
+                    <span><i class="bi bi-dash"></i></span>
                   </div>
 
                   <p class="card-text label-1">
@@ -654,6 +663,8 @@
                     <span class="badge label-1">New</span>
 
                     <span class="span title-2">&#8377;250.00</span>
+                    <span><i class="bi bi-plus"></i></span>
+                    <span><i class="bi bi-dash"></i></span>
                   </div>
 
                   <p class="card-text label-1">
@@ -681,6 +692,8 @@
                     </h3>
 
                     <span class="span title-2">&#8377;125.00</span>
+                    <span><i class="bi bi-plus"></i></span>
+                    <span><i class="bi bi-dash"></i></span>
                   </div>
 
                   <p class="card-text label-1">
@@ -708,6 +721,8 @@
                     </h3>
 
                     <span class="span title-2">&#8377;200.00</span>
+                    <span><i class="bi bi-plus"></i></span>
+                    <span><i class="bi bi-dash"></i></span>
                   </div>
 
                   <p class="card-text label-1">
@@ -798,23 +813,13 @@
                       </div>      
                     </div>
                   </li>
-
-                  <!-- <li>
-                    <div class="event-card has-before hover:shine">
-                      <div class="card-banner img-holder" style="--width: 350; --height: 550;">
-                        <img src="./assets/images/menu-1.jpg" width="350" height="450" loading="lazy"
-                          alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-                      </div>      
-                    </div>
-                  </li> -->
-      
                 </ul>
       
-                <a href="#" class="btn btn-primary">
+                <!-- <a href="#" class="btn btn-primary">
                   <span class="text text-1">View Our Blog</span>
       
                   <span class="text text-2" aria-hidden="true">View Our Blog</span>
-                </a>
+                </a> -->
       
               </div>
             </section>
@@ -1228,23 +1233,23 @@
         <ul class="footer-list">
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
           </li>
 
           <li>
-            <a href="#menu" class="label-2 footer-link hover-underline">Menus</a>
+            <a href="menu.html" class="label-2 footer-link hover-underline">Menus</a>
           </li>
 
           <li>
-            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+            <a href="about.html" class="label-2 footer-link hover-underline">About Us</a>
           </li>
 
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
-          </li>
+          <!-- <li>
+            <a href="chefs.html" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li> -->
 
           <li>
-            <a href="#contact-us" class="label-2 footer-link hover-underline">Contact</a>
+            <a href="contact.html" class="label-2 footer-link hover-underline">Contact</a>
           </li>
 
         </ul>
@@ -1263,9 +1268,9 @@
             <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
-          </li>
+          </li> -->
 
           <li>
             <a href="https://maps.app.goo.gl/uAHijJxUymy6izZ99" class="label-2 footer-link hover-underline">Google Map</a>

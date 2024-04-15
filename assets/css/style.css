@@ -7,9 +7,7 @@
  */
 
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 
 /*-----------------------------------*\
@@ -265,7 +263,7 @@ body.nav-active { overflow: hidden; }
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 16px;}
+.container { padding-inline: 16px; }
 
 .separator {
   width: 8px;
@@ -331,11 +329,6 @@ body.nav-active { overflow: hidden; }
   margin-inline: auto;
   margin-block-start: 5px;
 }
-
-/* login and cart button */
-
-/*  */
-
 
 .btn {
   position: relative;
@@ -901,19 +894,19 @@ body.nav-active { overflow: hidden; }
 
 
 
+/* login button and cart button */
 
 
-/*-----------------------------------*\
-  #Log in And Cart
-\*-----------------------------------*/
 .fa-circle-user{
   font-size: 22px;
-  
 }
 .fa-cart-shopping{
   font-size: 22px;
   margin-left: 15px;
 }
+
+
+
 
 
 /*-----------------------------------*\
@@ -1138,26 +1131,6 @@ body.nav-active { overflow: hidden; }
 }
 
 
-
-/* menu order */
-.bi-plus:hover{
-  font-size: 15px;
-  background-color: var(--davys-grey);
-  transition: width 0.8s, height 0.8s;  
-  border-radius: 3px;
-  color: var(--gold-crayola);
-  
-}
-.bi-dash:hover{
-  font-size: 15px;
- background-color: var(--davys-grey);
-  transition: width 0.8s, height 0.8s;  
-  border-radius: 3px;
-  color: var(--gold-crayola);
-}
-.bi-dash{
-  margin-left: 20px;
-}
 
 
 
@@ -2181,4 +2154,9 @@ textarea.input-field {
     left: 0;
   }
 
+}
+/* this css for body adjustment for conact,log in , regisrer, forget */
+.contact-section{
+  border: 5pxsolid red;
+  height: 500px;
 }

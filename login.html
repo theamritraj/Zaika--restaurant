@@ -25,6 +25,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
   <!-- 
     - custom css link
@@ -137,7 +138,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#menu" class="navbar-link hover-underline">
+            <a href="menu.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Menus</span>
@@ -145,23 +146,23 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#about" class="navbar-link hover-underline">
+            <a href="about.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">About Us</span>
             </a>
           </li>
 
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
+          <!-- <li class="navbar-item">
+            <a href="chefs.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Our Chefs</span>
             </a>
-          </li>
+          </li> -->
 
           <li class="navbar-item">
-            <a href="#contact-us" class="navbar-link hover-underline">
+            <a href="contact.html" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Contact</span>
@@ -193,16 +194,16 @@
 
       </nav>
 
-      <!-- Log in And Carrt -->
+      <!-- Login and And Cart -->
 
 
       <a href=""><span class="material-symbols-outlined"></span></a>
+      <a href="login.html"><i class="bi bi-person"></i></a>
+      <a href="cart.html"><i class="bi bi-cart3"></i></a>
       
 
       <!-- <a href="#online-booking" class="btn btn-secondary">
         <span class="text text-1">Log in</span>
-        
-
         <span class="text text-2" aria-hidden="true">Log in</span>
       </a> -->
       
@@ -219,21 +220,29 @@
     </div>
   </header>
 
+<div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#">
+        
+          <div class="input-group">
+            <input type="text" id="username" name="username" placeholder="Email or mobile " required>
+          </div>
+          <div class="input-group">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+          </div>
+          <button type="submit">sign in</button>
+          <button type="submit">create account</button>
+        </form>
+      </div>
+</div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-<!-- 
+  <!-- 
     - #FOOTER
   -->
 
@@ -293,23 +302,23 @@
         <ul class="footer-list">
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
           </li>
 
           <li>
-            <a href="#menu" class="label-2 footer-link hover-underline">Menus</a>
+            <a href="menu.html" class="label-2 footer-link hover-underline">Menus</a>
           </li>
 
           <li>
-            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+            <a href="about.html" class="label-2 footer-link hover-underline">About Us</a>
           </li>
 
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
-          </li>
+          <!-- <li>
+            <a href="chefs.html" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li> -->
 
           <li>
-            <a href="#contact-us" class="label-2 footer-link hover-underline">Contact</a>
+            <a href="contact.html" class="label-2 footer-link hover-underline">Contact</a>
           </li>
 
         </ul>
@@ -328,9 +337,9 @@
             <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
-          </li>
+          </li> -->
 
           <li>
             <a href="https://maps.app.goo.gl/uAHijJxUymy6izZ99" class="label-2 footer-link hover-underline">Google Map</a>
@@ -348,6 +357,8 @@
         </p>
 
       </div>
+      <div>
+      </div>
 
     </div>
   </footer>
@@ -356,7 +367,7 @@
 
 
 
-      <!-- 
+  <!-- 
     - #BACK TO TOP
   -->
 

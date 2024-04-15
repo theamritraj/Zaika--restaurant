@@ -908,11 +908,11 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 .fa-circle-user{
   font-size: 22px;
-  margin-left: 15px;
+  
 }
 .fa-cart-shopping{
   font-size: 22px;
-  
+  margin-left: 15px;
 }
 
 

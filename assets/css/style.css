@@ -905,6 +905,26 @@ body.nav-active { overflow: hidden; }
   margin-left: 15px;
 }
 
+.cart-icon {
+  position: relative; /* Add this to make the span position relative to this container */
+}
+
+.cart-icon span {
+  background-color: var(--smoky-black-3);
+  color: white; /* Update with the correct color */
+  width: 15px;
+  height: 15px;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  position: absolute;
+  top: -5px; /* Adjust position */
+  right: -5px; /* Adjust position */
+  border-radius: 50%; /* Optional: Make the span round */
+}
+
 
 
 
@@ -2159,4 +2179,11 @@ textarea.input-field {
 .contact-section{
   border: 5pxsolid red;
   height: 500px;
+}
+
+
+/* this css for body adjustment for Menu */
+.menu-section{
+  border: 5pxsolid red;
+  height: 250px;
 }

@@ -233,28 +233,23 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="https://formspree.io/f/xyyrleoa"
-            method="POST" class="form-left">
-
+            <form action="" method="POST" class="form-left" id="signupForm">
               <h2 class="headline-1 text-center">Sign up</h2>
-              <p class="form-text text-center">or <a href="login.html" class="link">login to your account</a>
-              </p>
-
+              <p class="form-text text-center">or <a href="login.html" class="link">login to your account</a></p>
               <div class="input-wrapper">
-
-                <input type="text" name="name" placeholder="Name" autocomplete="off" class="input-field" required>
-                <input type="tel" name="phone" placeholder="Phone number" autocomplete="off" class="input-field" required>
-                <input type="email" name="name" placeholder="Email" autocomplete="off" class="input-field" required>
-                <input type="password" name="password" placeholder="Password" autocomplete="off" class="input-field" required>
+                  <input type="text" name="name" placeholder="Name" autocomplete="off" class="input-field" required>
+                  <input type="tel" name="phone" placeholder="Phone number" autocomplete="off" class="input-field" required>
+                  <input type="email" name="email" placeholder="Email" autocomplete="off" class="input-field" required>
+                  <input type="password" name="password" placeholder="Password" autocomplete="off" class="input-field" required>
               </div>
               <button type="submit" class="btn btn-secondary">
-                <span class="text text-1">CONTINUE</span>
-
-                <span class="text text-2" aria-hidden="true">CONTINUE</span>
+                  <span class="text text-1">CONTINUE</span>
+                  <span class="text text-2" aria-hidden="true">CONTINUE</span>
               </button>
-              <p class="form-text">By creating an account, I accept the <a href="" class="link">Terms & Conditions & Privacy Policy</a>
-              </p>
-            </form>
+              <p class="form-text">By creating an account, I accept the <a href="" class="link">Terms & Conditions & Privacy Policy</a></p>
+          </form>
+          <div id="signupMessage"></div>
+          
 
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
 

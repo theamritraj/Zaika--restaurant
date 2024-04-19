@@ -275,3 +275,24 @@ function toggleContent() {
 //           sidebar.classList.remove('open');
 //   });
 // });
+
+
+
+
+document.getElementById("signupForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  // Your sign-up form processing logic here
+  // For demonstration purposes, let's just display a success message
+  var messageDiv = document.getElementById("signupMessage");
+  messageDiv.textContent = "Sign up successful!"; // Modify this message as needed
+});
+
+document.getElementById("reservationForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  // Your reservation form processing logic here
+  // For demonstration purposes, let's just display a success message
+  var messageDiv = document.getElementById("reservationMessage");
+  messageDiv.textContent = "Reservation successful! We'll get back to you soon."; // Modify this message as needed
+});
